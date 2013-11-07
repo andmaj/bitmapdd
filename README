@@ -1,0 +1,36 @@
+bitmapdd
+========
+Creates a bitmap from a file (or device).
+
+To compile:
+make
+
+To compile without signal handling:
+make CFLAGS='-DNOSIGNAL'
+
+To run:
+bin/bitmapdd
+
+To clean:
+make clean
+
+To print progress:
+kill -SIGUSR1 pid
+
+Usage: bitmapdd [options]
+
+Options:
+	--null NUM	Character code of null (default: 0)
+	--bs NUM	Block size (default: 512)
+	--count NUM	Count of blocks (default: till end of input)
+	--if FILE	Input file (default: stdin)
+	--of FILE	Output file (default: stdout)
+	--help		Usage information
+	--version	Print version
+	
+Example:
+bitmapdd --if /dev/sda --of usagemap.dat --bs 4096
+
+Written by Andras Majdan
+License: GNU General Public License Version 3
+Report bugs to <majdan.andras@gmail.com>

@@ -1,0 +1,21 @@
+Version 1.1.1:
+==============
+
+2013-10-13  Andras Majdan	<majdan.andras@gmail.com>
+
+    * FIX: Free up allocated memory before exit
+
+Version 1.1.0:
+==============
+
+2013-10-12  Andras Majdan	<majdan.andras@gmail.com>
+
+    * Added signal handling (SIGINT and SIGUSR1)
+    * Print progress
+
+Version 1.0.0:
+==============
+
+2013-10-12  Andras Majdan	<majdan.andras@gmail.com>
+
+    * Initial release
