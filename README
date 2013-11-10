@@ -9,7 +9,7 @@ To compile without signal handling:
 make CFLAGS='-DNOSIGNAL'
 
 To run:
-bin/bitmapdd
+./bin/bitmapdd
 
 To clean:
 make clean
