@@ -108,9 +108,12 @@ make clean
 ```
 
 ## Author
+
 Written by Andras Majdan.
+
 License: GNU General Public License Version 3
+
 Report bugs to <majdan.andras@gmail.com>
 
 ## See also
-[bitmap2pbm](https://github.com/andmaj/bitmap2pbm/blob/master/README.md),  [fat2bitmap](https://github.com/andmaj/fat2bitmap/blob/master/README.md)
+andmaj/bitmap2pbm , andmaj/fat2bitmap
