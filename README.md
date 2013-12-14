@@ -87,17 +87,25 @@ usagemap.dat will contain text:
 Program should build on any UNIX like operation system with a standard C compiler and make utility.
 
 To compile:
-```make```
+```
+make
+```
 
 To compile without signal handling:
-```make CFLAGS='-DNOSIGNAL'```
+```
+make CFLAGS='-DNOSIGNAL'
+```
 
 To run:
-```./bin/bitmapdd```
+```
+./bin/bitmapdd
+```
 (however it is not recommended to call this way because it will wait for input from stdin)
 
 To clean:
-```make clean```
+```
+make clean
+```
 
 ## Author
 Written by Andras Majdan.
