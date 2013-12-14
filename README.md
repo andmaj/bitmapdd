@@ -117,6 +117,6 @@ Report bugs to <majdan.andras@gmail.com>
 
 ## See also
 
-[bitmap2pbm](https://github.com/andmaj/bitmap2pbm)
+[bitmap2pbm](https://github.com/andmaj/bitmap2pbm) - Creates a P4 type PBM image from a binary file.
 
-[fat2bitmap](https://github.com/andmaj/fat2bitmap)
+[fat2bitmap](https://github.com/andmaj/fat2bitmap) - Creates a bitmap from FAT file system free/used clusters. 
