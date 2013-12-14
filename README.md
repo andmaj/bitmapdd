@@ -116,4 +116,7 @@ License: GNU General Public License Version 3
 Report bugs to <majdan.andras@gmail.com>
 
 ## See also
-andmaj/bitmap2pbm , andmaj/fat2bitmap
+
+[bitmap2pbm](https://github.com/andmaj/bitmap2pbm)
+
+[fat2bitmap](https://github.com/andmaj/fat2bitmap)
