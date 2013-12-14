@@ -7,7 +7,7 @@ Examples:
 | Blocksize | Input (hexadecimal)     | Output (binary) |
 |:---------:|:-----------------------:|:----------------|
 | 1         | 00 31 00 40 A0 FF 02 00 | 01011110        |
-| 1         | 30 31 30 30 31 30 30 31 | 01001001        |
+| 1*        | 30 31 30 30 31 30 30 31 | 01001001        |
 | 2         | 16 00 72 B0 00 00 00 00 | 1100            |
 | 4         | 00 00 00 00 00 A3 00 F7 | 01              |
 
@@ -78,10 +78,10 @@ usagemap.dat will contain text:
 ```
 
 | Character | Decimal code | Binary code |
-| - | - | - |
-| 0 | 48 | 00110000 |
-| @ | 64 | 01000000 |
-| A | 65 | 01000001 |
+|:---------:|:------------:|:-----------:|
+| 0         | 48           | 00110000    |
+| @         | 64           | 01000000    |
+| A         | 65           | 01000001    |
 
 ## Build
 Program should build on any UNIX like operation system with a standard C compiler and make utility.
